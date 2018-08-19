@@ -1,0 +1,21 @@
+body
+{
+background-color:#ffffff;	
+color:#444452;
+}	
+#toprow
+{
+	margin:5%;
+	padding:20px;
+	
+}
+#tagline
+{
+	font-family: 'Didact Gothic';
+	  line-height: 4cm;
+	    
+}
+#sury_img
+{
+	margin-left:15%;
+}
