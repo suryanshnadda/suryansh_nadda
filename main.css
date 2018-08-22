@@ -1,21 +1,44 @@
 body
 {
-background-color:#ffffff;	
+background-color:#ffffff;
 color:#444452;
-}	
+}
 #toprow
 {
-	margin:5%;
+	margin:8%;
+
 	padding:20px;
-	
+
 }
 #tagline
 {
 	font-family: 'Didact Gothic';
 	  line-height: 4cm;
-	    
+
 }
 #sury_img
 {
 	margin-left:15%;
+}
+
+.middleone
+{
+
+	margin-top: 15%;
+}
+#backgroundcon
+{
+	margin:10%;
+	margin-bottom:22%;
+	margin-top:0%;
+	margin-left:1px;
+	text-align:justify;
+	padding-right:200px;
+	font-size:20px;
+	line-height: 1.5;
+}
+#conhead
+{
+	text-transform: uppercase;
+	color:blue;
 }
