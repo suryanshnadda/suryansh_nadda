@@ -18,8 +18,10 @@ Suryansh_Nadda
 <link rel="icon" href="https://png.icons8.com/cotton/50/000000/working-with-a-laptop.png" type="image/gif" sizes="16x16">
 </head>
 <body>
-<div class="headfront">
+<div class="headfront"><img src="https://png.icons8.com/ultraviolet/30/000000/bright-moon.png" id="moon">
+<img src="https://png.icons8.com/dusk/30/000000/sun.png" id="sun">
 <div class="row" id="toprow">
+
 <div class="col-sm-6" style=" font-family: 'M PLUS Rounded 1c';">
 <h1 class="greet">Hello  <img src="https://png.icons8.com/dusk/50/000000/hand.png"></h1>
 <br>
@@ -83,7 +85,6 @@ Suryansh_Nadda
 </p>
 </div>
 </div>
-
 <div class="col-sm-2">
   <br><br>
   <p id="conhead"  style=" font-family: 'M PLUS Rounded 1c';"><br><b>Featured Projects</b></p>
@@ -93,33 +94,19 @@ Suryansh_Nadda
 <b>Codenody- a web application which helps students to learn programming.</b>
 different programming languages concepts are explained with the help of incremental leaning architecture.
 Online Compiler is also there for real_time results.
-<br>Have a Looks <a href="https://suryanshnadda.github.io/codenody.github.io/">codenody</a>
-
-
-
+<br>Have a Look<a href="https://suryanshnadda.github.io/codenody.github.io/">codenody</a>
 </p>
 </div>
 </div>
 </div>
-
 <div class="container-fluid">
-
 <div class="fotter" id="foot">
-
-
-
 <ul class="nav nav-pills" style="float:right">
 <li><a  id="endi" href="https://github.com/suryanshnadda">Github</a></li>
 <li><a  id="endi"  href="https://www.linkedin.com/in/suryansh-nadda/">Linkedin</a></li>
 <li><a  id="endi"  href="https://www.instagram.com/suryanshnody/">Instagram</a></li>
-
-
 </ul>
 </div>
-
-
-
-
 <script>
 // alert("this  project is going continous integration testing will be completed very soon -> still working on it");
 setInterval(function(){
@@ -130,17 +117,23 @@ setInterval(function(){
     alert("you are not connected to internet");
   }
 },3000);
-
-
-funcion change()
+moon.onclick=function()
 {
-  var a=document.getElement.Id("").value;
-  if(a==1)
-  {
-
-  }
+  document.body.style.backgroundColor="#171c28";
+  document.body.style.color="white";
+  document.getElementById('moon').hidden = true;
+  document.getElementById('sun').style.display="block";
 }
-</script>
 
+sun.onclick=function()
+{
+  document.body.style.backgroundColor="white";
+  document.body.style.color="grey";
+  document.getElementById('moon').hidden = false;
+  document.getElementById('sun').style.display="none";
+}
+
+//change();
+</script>
 </body>
 </html>

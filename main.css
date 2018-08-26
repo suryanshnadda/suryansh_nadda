@@ -70,3 +70,12 @@ align:right;
 	background-color:#171c28;
 	border:;
 }
+#moon
+{
+	margin-top:0px;
+
+}
+#sun
+{
+	display:none;
+}
