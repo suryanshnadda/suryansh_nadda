@@ -42,3 +42,27 @@ color:#444452;
 	text-transform: uppercase;
 	color:blue;
 }
+#foot
+{
+	padding:30px;
+}
+#explained
+{
+align:right;
+}
+
+#endi
+{
+	float:right;
+	border: 0.5px solid #444452;
+	padding:1px;
+	margin-left:2px;
+	margin-right:2px;
+
+}
+#endi:hover
+{
+	color:white;
+	background-color:#171c28;
+	border:;
+}
