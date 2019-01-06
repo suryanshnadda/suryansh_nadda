@@ -1,45 +1,82 @@
-#card
-{
-	
-	margin:1px;
-	margin
+::-webkit-scrollbar {
+display: none;
 }
-.card
+body
 {
-	margin:5px;
+background-color:#ffffff;
+color:#444452;
 }
-#card_a
+#toprow
 {
-	margin-left:10px;
+	margin:8%;
+
+	padding:20px;
+
 }
-#main
+#tagline
 {
-padding:40px;	
+	font-family: 'Didact Gothic';
+	  line-height: 4cm;
+
 }
-#intro
+#sury_img
 {
-padding:20px;
-box-shadow:0px 0px 25px #C0CBE5;
+	margin-left:15%;
 }
-#iop
+
+.middleone
 {
-	
+
+	margin-top: 15%;
+}
+#backgroundcon
+{
+	margin:10%;
+	margin-bottom:7%;
+	margin-top:0%;
+	margin-left:1px;
+	text-align:justify;
+	padding-right:200px;
 	font-size:20px;
-	
+	line-height: 1.5;
 }
-.card:hover
+#conhead
 {
-	box-shadow:0px 0px 25px #C0CBE5;
-	
+	text-transform: uppercase;
+	color:blue;
 }
-#rty
+#foot
 {
-	padding:2px;
-	padding-left:10px;
-	margin:0px;
-	font-size:8px;
+	padding:30px;
+	border-top: 1px single black;
 }
-#last
+#explained
 {
-	margin-left:80%;
+align:right;
+}
+
+#endi
+{
+	float:right;
+	border: 0.5px solid #444452;
+	padding:1px;
+	margin-left:2px;
+	margin-right:2px;
+	margin-bottom:4px;
+
+}
+#endi:hover
+{
+	color:white;
+	background-color:#171c28;
+	border:;
+}
+#moon
+{
+	margin-top:0px;
+
+}
+#sun
+{
+	display:none;
 }
