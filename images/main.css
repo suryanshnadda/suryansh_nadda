@@ -1,0 +1,82 @@
+::-webkit-scrollbar {
+display: none;
+}
+body
+{
+background-color:#ffffff;
+color:#444452;
+}
+#toprow
+{
+	margin:8%;
+
+	padding:20px;
+
+}
+#tagline
+{
+	font-family: 'Didact Gothic';
+	  line-height: 4cm;
+
+}
+#sury_img
+{
+	margin-left:15%;
+}
+
+.middleone
+{
+
+	margin-top: 15%;
+}
+#backgroundcon
+{
+	margin:10%;
+	margin-bottom:7%;
+	margin-top:0%;
+	margin-left:1px;
+	text-align:justify;
+	padding-right:200px;
+	font-size:20px;
+	line-height: 1.5;
+}
+#conhead
+{
+	text-transform: uppercase;
+	color:blue;
+}
+#foot
+{
+	padding:30px;
+	border-top: 1px single black;
+}
+#explained
+{
+align:right;
+}
+
+#endi
+{
+	float:right;
+	border: 0.5px solid #444452;
+	padding:1px;
+	margin-left:2px;
+	margin-right:2px;
+	margin-bottom:4px;
+
+}
+#endi:hover
+{
+	color:white;
+	background-color:#171c28;
+	border:;
+}
+#moon
+{
+	margin-top:0px;
+
+}
+#sun
+{
+	display:none;
+}
