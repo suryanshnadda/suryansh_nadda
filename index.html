@@ -21,11 +21,27 @@
       background-color: #0b0f19;
       color: #e6e6e6;
     }
-    
-  .quick-highlights,
-.quick-highlights * {
-  color: #f5f5dc !important; /* Cream */
-}
+
+    /* Make all faded Bootstrap text visible on dark background */
+    .text-white-50 {
+      color: rgba(245, 245, 220, 0.88) !important;
+      opacity: 1 !important;
+    }
+
+    /* Quick Highlights: Cream text but icons stay green */
+    .quick-highlights {
+      color: #f5f5dc !important;
+    }
+
+    .quick-highlights h5,
+    .quick-highlights li {
+      color: #f5f5dc !important;
+    }
+
+    .quick-highlights .text-success {
+      color: #22c55e !important;
+    }
+
     .navbar {
       background: rgba(15, 23, 42, 0.85);
       backdrop-filter: blur(10px);
@@ -171,8 +187,8 @@
       <div class="row align-items-center g-5">
 
         <div class="col-lg-7">
+          <br><br><br>
 
-          <br><Br><br>
           <span class="badge-soft"><i class="bi bi-check2-circle"></i> QA Engineer | Manual + Automation Testing</span>
 
           <h1 class="display-5 fw-bold mt-3">
@@ -191,7 +207,8 @@
               Hire Me <i class="bi bi-arrow-right"></i>
             </a>
 
-            <a class="btn btn-outline-light btn-lg px-4" href="https://www.linkedin.com/in/suryansh-nadda/" target="_blank">
+            <a class="btn btn-outline-light btn-lg px-4" href="https://www.linkedin.com/in/suryansh-nadda/"
+              target="_blank">
               LinkedIn <i class="bi bi-linkedin"></i>
             </a>
 
@@ -206,8 +223,8 @@
           </div>
         </div>
 
-        <div class="col-lg-5" style="color: cream;" >
-          <div class="card p-4">
+        <div class="col-lg-5">
+          <div class="card p-4 quick-highlights">
             <h5 class="fw-bold mb-3"><i class="bi bi-stars"></i> Quick Highlights</h5>
             <ul class="list-unstyled mb-0">
               <li class="mb-3">
@@ -413,8 +430,7 @@
             </div>
 
             <div class="mt-3">
-              <a class="btn btn-outline-light w-100" target="_blank"
-                href="https://github.com/suryanshnadda">
+              <a class="btn btn-outline-light w-100" target="_blank" href="https://github.com/suryanshnadda">
                 View on GitHub <i class="bi bi-box-arrow-up-right"></i>
               </a>
             </div>
@@ -434,8 +450,7 @@
             </div>
 
             <div class="mt-3">
-              <a class="btn btn-outline-light w-100" target="_blank"
-                href="https://github.com/suryanshnadda">
+              <a class="btn btn-outline-light w-100" target="_blank" href="https://github.com/suryanshnadda">
                 View on GitHub <i class="bi bi-box-arrow-up-right"></i>
               </a>
             </div>
@@ -494,8 +509,7 @@
 
             <p class="text-white-50 mb-2">
               <i class="bi bi-github"></i> <strong>GitHub:</strong>
-              <a class="text-decoration-underline text-light" target="_blank"
-                href="https://github.com/suryanshnadda">
+              <a class="text-decoration-underline text-light" target="_blank" href="https://github.com/suryanshnadda">
                 github.com/suryanshnadda
               </a>
             </p>
